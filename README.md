@@ -8,6 +8,7 @@ NIM   : 244107027009 <br>
 ![image](https://github.com/user-attachments/assets/54115da5-d38e-4fb3-a69d-efbf5457dad9) <br>
 <br>
 2. Menambahkan JSX (JavaScript XML) untuk menyimpan nilai hitung <br>
+
 ![image](https://github.com/user-attachments/assets/13beac87-9b58-469c-a578-19d628e9b817)
 
 
@@ -32,8 +33,8 @@ Tugas <br>
 
 <br>
 Kode Keseluruhan <br>
-![image](https://github.com/user-attachments/assets/fd3a3a38-02d1-497b-9bd3-992348c30de6)
 
+![image](https://github.com/user-attachments/assets/fd3a3a38-02d1-497b-9bd3-992348c30de6) 
 ![image](https://github.com/user-attachments/assets/c8a6f84f-2873-48e0-b92b-e831467146a9)
 
 
