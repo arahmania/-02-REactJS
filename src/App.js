@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import Counter from './Counter';
 import Greeting from './Greeting';
 import TodoList from './Todolist';
@@ -25,49 +26,51 @@ import './App.css';
 //   );
 // }
 
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
 // Komponen Header
-function Header () {
+function Header() {
   return (
-  <header>
-    <h1>Aplikasi React Saya</h1>
-    </header>);
+    <header>
+      <h1>Aplikasi React Saya</h1>
+    </header>
+  );
 }
+
 // Komponen Main
 function Main() {
-return (
-<main>
-<h2>Selamat datang di Aplikasi React Saya!</h2>
-<p>Ini adalah area konten utama .</p>
-</main>
-);
+  return (
+    <main>
+      <h2>Selamat datang di Aplikasi React Saya!</h2>
+      <p>Ini adalah area konten utama.</p>
+    </main>
+  );
 }
+
 // Komponen Footer
-function Footer () {
-return (
-<footer>
-<p>&copy; 2025 Aplikasi React Saya</p>
-</footer>);
+function Footer() {
+  return (
+    <footer>
+      <p>&copy; 2025 Aplikasi React Saya</p>
+    </footer>
+  );
 }
-// komponen App yang menggunakan header, main dan footer
-function App(){
-  return(
+
+// Komponen App yang menggunakan Header, Main dan Footer
+function App() {
+  return (
     <div>
-      <header/>
-      <Main/>
-      <Greeting name="rahmania"/>
-      <Counter/>
-      <Example/>
-      <TodoList/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Greeting name="rahmania" />
+      <Counter />
+      <Example />
+      <TodoList />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-
-
 
 function Example() {
   const [name, setName] = useState('');
@@ -86,8 +89,6 @@ function Example() {
     setEmail(e.target.value);
   };
 
-
-
   return (
     <div>
       <input type="text" placeholder="Nama" value={name} onChange={handleNameChange} />
@@ -97,5 +98,6 @@ function Example() {
     </div>
   );
 }
+
 
 

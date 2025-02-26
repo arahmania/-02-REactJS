@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 
+function TaskItem({ task, onRemove }) {
+  return (
+    <li>
+      {task} <button onClick={onRemove}>Hapus</button>
+    </li>
+  );
+}
+
 function TodoList() {
     const [tasks, setTasks] = useState([]);
     const [newTask, setNewTask] = useState('');
@@ -28,9 +36,11 @@ function TodoList() {
       <button onClick={handleAddTask}>Tambah Tugas</button>
       <ul>
         {tasks.map((task, index) => (
-          <li key={index}>
-            {task} <button onClick={() => handleRemoveTask(index)}>Hapus</button>
-          </li>
+          <TaskItem
+            key={index}
+            task={task}
+            onRemove={() => handleRemoveTask(index)}
+          />
         ))}
       </ul>
     </div>
