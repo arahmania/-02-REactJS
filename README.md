@@ -8,14 +8,21 @@ NIM   : 244107027009 <br>
 ![image](https://github.com/user-attachments/assets/54115da5-d38e-4fb3-a69d-efbf5457dad9) <br>
 <br>
 2. Menambahkan JSX (JavaScript XML) untuk menyimpan nilai hitung <br>
-![image](https://github.com/user-attachments/assets/4680de0e-7bfa-4f34-a379-8aef5e73f610)
-<br>
+![image](https://github.com/user-attachments/assets/dddef54b-4cca-4796-ac17-196953aa7bd9)
+
 3. Menambahkan komponen Greeting yang digunakan untuk menerima props name dan menampilkan pesan "Halo, Rahmania!<br>
-![image](https://github.com/user-attachments/assets/234a751c-2ebe-49e7-980f-dd2a398c3f42) <br>
+![image](https://github.com/user-attachments/assets/70abe226-140c-4d1d-b31c-07808c40a50e)
+
 4. Menambahkan state untuk mengelola input pengguna dan menampilkan data yang dimasukkan <br>
-![image](https://github.com/user-attachments/assets/dfee3c82-19ae-4b79-9ff3-e2cd81d1515d) <br>
+
 Hasil Praktikum <br>
-![image](https://github.com/user-attachments/assets/3adfa7b8-ae43-448b-b07b-dc055df068f1) <br> 
+
+Tugas
+1. Buat komponen baru bernama TodoList yang menampilkan daftar tugas (todo list). Gunakan state untuk mengelola daftar tugas dan props untuk mengirim data tugas ke komponen anak. <br>
+2. Tambahkan fitur untuk menambahkan tugas baru ke dalam daftar menggunakan form input.
+3. Implementasikan fitur untuk menghapus tugas dari daftar.
+
+Hasil
 
 
 
